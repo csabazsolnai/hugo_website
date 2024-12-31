@@ -3,7 +3,7 @@ title = "Contact"
 layout = "single"
 +++
 
-# Get in Touch
+## Get in Touch
 
 You can reach me at the following email address:
 
