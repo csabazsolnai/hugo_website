@@ -18,9 +18,14 @@ draft: false
 - Machine Learning Research
 - Hiking
 - Neuroscience
-- Sci-Fi Novels
 
 ---
 
 Welcome to my page! I'm passionate about exploring the forefront of artificial intelligence and machine learning, from reinforcement learning to the latest advances in large language models. Beyond my professional pursuits, I enjoy delving into neuroscience, reading science fiction, and hiking through beautiful landscapes.
 [Contact Me](/contact)
+
+## Get in Touch
+
+You can reach me at the following email address:
+
+&#099;&#115;&#097;&#098;&#097;&#122;&#115;&#111;&#108;&#110;&#097;&#105;&#064;&#112;&#109;&#046;&#109;&#101;

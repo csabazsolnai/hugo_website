@@ -18,11 +18,6 @@
   url = "publications/"
   weight = -107
 
-[[main]]
-  name = "Contact"
-  url = "contact/"
-  weight = -107
-
 # social menu links
 
 [[social]]
