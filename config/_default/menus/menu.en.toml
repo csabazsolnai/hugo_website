@@ -9,6 +9,11 @@
   weight = -107
 
 [[main]]
+  name = "Resume"
+  url = "resume/"
+  weight = -107
+
+[[main]]
   name = "Projects"
   url = "projects/"
   weight = -107
