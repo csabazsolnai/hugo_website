@@ -156,7 +156,7 @@ for frame in frames:
 ```
 
 We should see a playback similar to this:
-![Random Cartpole](/images/reinforce_tutorial/cartpole_random.gif)
+![Random Cartpole](images/reinforce_tutorial/cartpole_random.gif)
 
 ### Policy
 
@@ -312,13 +312,13 @@ plt.tight_layout()
 plt.show()
 ```
 
-![](/images/reinforce_tutorial/train_v1.png)
+![](images/reinforce_tutorial/train_v1.png)
 
 This is not what we expected. The model is not getting better (by much) with training. What is happening? 
 Lets visualize the actions taken in a single episode in each step for the trained policy.
 The agent can only nudge the pole left or right, so we visualize this. 
 
-![](/images/reinforce_tutorial/trained_decisions.png)
+![](images/reinforce_tutorial/trained_decisions.png)
 
 The trained model is always choosing the same action in each step! No wonder the agent is not surviving.
 If we nudge the cart in one direction, the pole will definitely fall over.
@@ -351,12 +351,12 @@ class Policy(nn.Module):
 
 Training with the new policy yields the following result:
 
-![](/images/reinforce_tutorial/train_v2.png)
+![](images/reinforce_tutorial/train_v2.png)
 
 This is much better ! We can see that the agent learns to balance the pole better as the training
 progresses. Lets visualize an episode:
 
-![Trained Cartpole](/images/reinforce_tutorial/cartpole_trained.gif)
+![Trained Cartpole](images/reinforce_tutorial/cartpole_trained.gif)
 
 Using the new policy, the agent is able to balance the pole almost indefinitely, just as we wanted.
 And with that, we have a basic, but working implementation of the Reinforce algorithm.
